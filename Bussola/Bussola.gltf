@@ -3,35 +3,35 @@
         {
             "bufferView": 0,
             "componentType": 5126,
-            "count": 4850,
+            "count": 1284,
             "max": [
-                0.10062851011753082,
-                0.10818107426166534,
-                0.13964511454105377
+                0.3243336081504822,
+                0.6833795309066772,
+                0.3263033628463745
             ],
             "min": [
-                -0.10062850266695023,
-                -7.450580596923828e-09,
-                -0.1396450698375702
+                -0.3243336081504822,
+                -1.4901161193847656e-08,
+                -0.32630330324172974
             ],
             "type": "VEC3"
         },
         {
             "bufferView": 1,
             "componentType": 5126,
-            "count": 4850,
+            "count": 1284,
             "type": "VEC2"
         },
         {
             "bufferView": 2,
             "componentType": 5126,
-            "count": 4850,
+            "count": 1284,
             "type": "VEC3"
         },
         {
             "bufferView": 3,
             "componentType": 5123,
-            "count": 7182,
+            "count": 1881,
             "type": "SCALAR"
         },
         {
@@ -43,7 +43,7 @@
         {
             "bufferView": 5,
             "componentType": 5123,
-            "count": 4566,
+            "count": 1254,
             "type": "SCALAR"
         },
         {
@@ -55,7 +55,7 @@
         {
             "bufferView": 7,
             "componentType": 5123,
-            "count": 7182,
+            "count": 1881,
             "type": "SCALAR"
         }
     ],
@@ -66,58 +66,58 @@
     "bufferViews": [
         {
             "buffer": 0,
-            "byteLength": 58200
+            "byteLength": 15408
         },
         {
             "buffer": 0,
-            "byteLength": 38800,
-            "byteOffset": 58200
+            "byteLength": 10272,
+            "byteOffset": 15408
         },
         {
             "buffer": 0,
-            "byteLength": 58200,
-            "byteOffset": 97000
+            "byteLength": 15408,
+            "byteOffset": 25680
         },
         {
             "buffer": 0,
-            "byteLength": 14364,
-            "byteOffset": 155200
-        },
-        {
-            "buffer": 0,
-            "byteLength": 6,
-            "byteOffset": 169564
-        },
-        {
-            "buffer": 0,
-            "byteLength": 9132,
-            "byteOffset": 169570
+            "byteLength": 3762,
+            "byteOffset": 41088
         },
         {
             "buffer": 0,
             "byteLength": 6,
-            "byteOffset": 178702
+            "byteOffset": 44850
         },
         {
             "buffer": 0,
-            "byteLength": 14364,
-            "byteOffset": 178708
+            "byteLength": 2508,
+            "byteOffset": 44856
         },
         {
             "buffer": 0,
-            "byteLength": 3754109,
-            "byteOffset": 193072
+            "byteLength": 6,
+            "byteOffset": 47364
+        },
+        {
+            "buffer": 0,
+            "byteLength": 3762,
+            "byteOffset": 47370
+        },
+        {
+            "buffer": 0,
+            "byteLength": 269507,
+            "byteOffset": 51132
         },
         {
             "buffer": 0,
             "byteLength": 79300,
-            "byteOffset": 3947181
+            "byteOffset": 320639
         }
     ],
     "buffers": [
         {
-            "byteLength": 4026481,
-            "uri": "Bussola.bin"
+            "byteLength": 399939,
+            "uri": "bussola.bin"
         }
     ],
     "extensionsRequired": [
@@ -136,12 +136,12 @@
         {
             "bufferView": 8,
             "mimeType": "image/jpeg",
-            "name": "8.JPG"
+            "name": "Camada 1.JPG"
         },
         {
             "bufferView": 9,
             "mimeType": "image/jpeg",
-            "name": "8 Material de extrusão - Textura padrão.JPG"
+            "name": "Camada 1 Material de extrusão - Textura padrão.JPG"
         }
     ],
     "materials": [
@@ -153,25 +153,25 @@
                 0.0,
                 0.0
             ],
-            "name": "8 Material de inflação da frente",
+            "name": "Camada 1 Material de inflação da frente",
             "pbrMetallicRoughness": {
                 "baseColorFactor": [
-                    0.5,
-                    0.5,
-                    0.5,
+                    0.7843137383460999,
+                    0.6540321707725525,
+                    0.4121614396572113,
                     1.0
                 ],
                 "baseColorTexture": {
                     "extensions": {
                         "KHR_texture_transform": {
                             "offset": [
-                                0.03427090123295784,
-                                -1.7992655557463877e-05
+                                5.19480499860947e-06,
+                                0.001168691786006093
                             ],
                             "rotation": 0.0,
                             "scale": [
-                                0.9659872055053711,
-                                0.9997567534446716
+                                1.0017129182815552,
+                                0.9992325901985168
                             ]
                         }
                     },
@@ -189,7 +189,7 @@
                 0.0,
                 0.0
             ],
-            "name": "8 Material de chanfro da frente",
+            "name": "Camada 1 Material de chanfro da frente",
             "pbrMetallicRoughness": {
                 "baseColorFactor": [
                     0.5,
@@ -201,13 +201,13 @@
                     "extensions": {
                         "KHR_texture_transform": {
                             "offset": [
-                                0.03427090123295784,
-                                -1.7992655557463877e-05
+                                5.19480499860947e-06,
+                                0.001168691786006093
                             ],
                             "rotation": 0.0,
                             "scale": [
-                                0.9659872055053711,
-                                0.9997567534446716
+                                1.0017129182815552,
+                                0.9992325901985168
                             ]
                         }
                     },
@@ -225,12 +225,12 @@
                 0.0,
                 0.0
             ],
-            "name": "8 Material de extrusão",
+            "name": "Camada 1 Material de extrusão",
             "pbrMetallicRoughness": {
                 "baseColorFactor": [
-                    0.45849609375,
-                    0.40789794921875,
-                    0.290069580078125,
+                    0.4705810546875,
+                    0.37646484375,
+                    0.211761474609375,
                     1.0
                 ],
                 "baseColorTexture": {
@@ -248,25 +248,25 @@
                 0.0,
                 0.0
             ],
-            "name": "8 Material de chanfro do verso",
+            "name": "Camada 1 Material de chanfro do verso",
             "pbrMetallicRoughness": {
                 "baseColorFactor": [
-                    0.44659423828125,
-                    0.410125732421875,
-                    0.3214111328125,
+                    0.5,
+                    0.5,
+                    0.5,
                     1.0
                 ],
                 "baseColorTexture": {
                     "extensions": {
                         "KHR_texture_transform": {
                             "offset": [
-                                0.03427090123295784,
-                                -1.7992655557463877e-05
+                                5.19480499860947e-06,
+                                0.001168691786006093
                             ],
                             "rotation": 0.0,
                             "scale": [
-                                0.9659872055053711,
-                                0.9997567534446716
+                                1.0017129182815552,
+                                0.9992325901985168
                             ]
                         }
                     },
@@ -284,7 +284,7 @@
                 0.0,
                 0.0
             ],
-            "name": "8 Material de inflação do verso",
+            "name": "Camada 1 Material de inflação do verso",
             "pbrMetallicRoughness": {
                 "baseColorFactor": [
                     0.5,
@@ -296,13 +296,13 @@
                     "extensions": {
                         "KHR_texture_transform": {
                             "offset": [
-                                0.03427090123295784,
-                                -1.7992655557463877e-05
+                                5.19480499860947e-06,
+                                0.001168691786006093
                             ],
                             "rotation": 0.0,
                             "scale": [
-                                0.9659872055053711,
-                                0.9997567534446716
+                                1.0017129182815552,
+                                0.9992325901985168
                             ]
                         }
                     },
@@ -315,7 +315,7 @@
     ],
     "meshes": [
         {
-            "name": "8",
+            "name": "Camada 1",
             "primitives": [
                 {
                     "attributes": {
@@ -373,25 +373,25 @@
     "nodes": [
         {
             "matrix": [
-                7.129507139325142e-05,
-                1.5698966535637737e-06,
-                3.268802856837283e-06,
+                0.0009232243173755705,
+                -0.00034828518982976675,
+                0.00016233748465310782,
                 0.0,
-                2.897945933000301e-06,
-                1.401585541316308e-05,
-                -6.99377415003255e-05,
+                0.0003653067979030311,
+                0.0006644711829721928,
+                -0.0006519418675452471,
                 0.0,
-                -2.1797993667860283e-06,
-                6.998003664193675e-05,
-                1.3934008165961131e-05,
+                0.00011919313692487776,
+                0.0006611916469410062,
+                0.000740686955396086,
                 0.0,
-                -0.11480888724327087,
-                0.05201737955212593,
-                0.13478121161460876,
+                -0.4591407775878906,
+                0.23294366896152496,
+                0.25094443559646606,
                 0.9999999403953552
             ],
             "mesh": 0,
-            "name": "8"
+            "name": "Camada 1"
         }
     ],
     "scene": 0,
